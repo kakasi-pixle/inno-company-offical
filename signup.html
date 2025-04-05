@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إنشاء حساب</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>إنشاء حساب جديد</h1>
+      <form id="signupForm">
+        <div class="input-field">
+          <label for="username">اسم المستخدم:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-field">
+          <label for="email">البريد الإلكتروني:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-field">
+          <label for="password">كلمة المرور:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-field">
+          <label for="confirmPassword">تأكيد كلمة المرور:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+        <button type="submit" class="btn">إنشاء الحساب</button>
+      </form>
+      <div id="error-message"></div>
+    </div>
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+</html>
