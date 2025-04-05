@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>تسجيل الدخول</h1>
+      <form id="loginForm">
+        <div class="input-field">
+          <label for="username">اسم المستخدم:</label>
+          <input type="text" id="loginUsername" name="username" required>
+        </div>
+        <div class="input-field">
+          <label for="password">كلمة المرور:</label>
+          <input type="password" id="loginPassword" name="password" required>
+        </div>
+        <button type="submit" class="btn">دخول</button>
+      </form>
+      <div id="login-error-message"></div>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
